@@ -10,7 +10,7 @@
 </style>
 
 <script src="jquery.min.js"></script>
-<script src="ace/lib/ace/ace.js"></script>
+<script src="ace_new/lib/ace/ace.js"></script>
 
 <script>
     var code;
@@ -18,8 +18,8 @@
     $(function() {
         code = ace.edit("code");
 	id="code"
-        code.setTheme("ace/theme/textmate");
-	code.getSession().setMode("ace/mode/c_cpp");
+        code.setTheme("ace_new/lib/ace/theme/textmate");
+	code.getSession().setMode("ace_new/lib/ace/mode/c_cpp");
 	code.setShowPrintMargin(false);
 	code.setOptions({
 	    maxLines: Infinity,

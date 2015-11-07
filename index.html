@@ -26,8 +26,8 @@
     $(function() {
         code = ace.edit("code");
 	id="code"
-        code.setTheme("textmate");
-	code.getSession().setMode("c_cpp");
+        code.setTheme("ace/theme/textmate");
+	code.getSession().setMode("ace/mode/c_cpp");
 	code.setShowPrintMargin(false);
 	code.setOptions({
 	    maxLines: Infinity,
